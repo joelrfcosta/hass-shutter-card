@@ -261,6 +261,10 @@ class ShutterCard extends HTMLElement {
       `;
     
       this.card.appendChild(allShutters);
+      this.card.style.justifyContent = "center";
+      this.card.style.display = "flex";
+      this.card.style.flexDirection = "column";
+      this.card.style.height = "100%";
       this.appendChild(style);
     }
     
